@@ -1,0 +1,30 @@
+// Flexbox prefixes
+=displayFlex()
+  display: -webkit-flex
+  display: flex
+
+=flexDirection($dir: row)
+  -webkit-flex-direction: $dir
+  flex-direction: $dir
+
+=flex($content)
+  -webkit-flex: $content
+  flex: $content
+
+=order($order)
+  -webkit-box-ordinal-group: $order
+  -webkit-order: $order
+  order: $order
+
+=justifyContent($pos: flex-start)
+  -webkit-justify-content: $pos
+  justify-content: $pos
+
+=alignItems($pos: flex-start)
+  -webkit-align-items: $pos
+  align-items: $pos
+
+=flexWrap($wrap: wrap)
+  -webkit-flex-wrap: $wrap
+  flex-wrap: $wrap
+
